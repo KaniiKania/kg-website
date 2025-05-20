@@ -1,0 +1,85 @@
+body {
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-size: cover;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+
+
+}
+
+
+#rec {
+	width: 700px;
+	height: 1300px;
+  opacity: 1;
+	background-color: #000000;
+	margin: 0px auto 0;
+  text-align: center;
+
+
+}
+
+
+
+
+  ul {
+  padding: 20px;
+  margin: 0 auto;
+  display: table;
+  list-style: none;
+  }
+  li {float: left;}
+  
+  li a {
+  display: block;
+  float: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  font-size: 1.2em;
+  height: 15px;
+  width: 150px;
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+  padding: 10px 15px;
+  margin: 0px 5px 5px 5px;
+  border: 1px solid #000000;
+  opacity:0.8;
+  border-radius: 3px;
+
+  }
+  
+  li a:hover {
+  color: #FFFFFF;
+
+  background: 000000;
+  border: 1px solid 000000;
+  }
+
+  .footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    height: 7%;
+    width: 100%;
+    background-color: #181818;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+  }
+
+  .ss {
+    transition:transform 0.25s ease;
+    float:left;  
+    position:relative;  
+    z-index: 1;
+    margin: 0px 15px 15px 15px;
+}
+
+.ss:hover {
+    -webkit-transform:scale(2.5); 
+    transform:scale(2.5);
+    z-index: 2;
+}
